@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>GET All Objects</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>111fd026-85a9-4af9-a285-c74b477b0b4c</testCaseGuid>
-</TestCaseEntity>

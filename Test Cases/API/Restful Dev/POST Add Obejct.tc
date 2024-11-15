@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POST Add Obejct</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>884e44e3-6c16-442f-88a9-ad98c824d5f6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f726fee4-5abb-42fe-b43a-9a95245ff553</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Yoga 7 Pro'</defaultValue>
+      <description></description>
+      <id>f726fee4-5abb-42fe-b43a-9a95245ff553</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

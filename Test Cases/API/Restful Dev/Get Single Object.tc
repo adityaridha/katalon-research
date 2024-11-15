@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Single Object</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>51a164ac-3881-464e-a21c-5fa87cb6d296</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b208f2fa-4c1d-4af0-b412-535b0c854ba2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'6'</defaultValue>
+      <description></description>
+      <id>b208f2fa-4c1d-4af0-b412-535b0c854ba2</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+</TestCaseEntity>

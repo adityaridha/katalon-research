@@ -17,3 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/*
+ *  Automates logging into a website and verifies elements on the dashboard page.
+ *
+ *  1. Opens the browser and navigates to 'https://www.saucedemo.com/'.
+ *  2. Enters the provided username and password in the respective input fields. the input for username is "visual_user" and the password is "secret_sauce"
+ *  3. Clicks on the login button.
+ *  4. Verifies the visibility of the 'Add to cart' button on the dashboard.
+ *  5. Verifies the presence of the 'Products' span element on the dashboard with a timeout of 0 seconds.
+ *
+ */
+// Navigates to the website 'https://www.saucedemo.com/'
+WebUI.openBrowser('https://www.saucedemo.com/')
+
+// Enters the username "visual_user" and password "secret_sauce" in the respective input fields
+WebUI.setText(findTestObject('WEB/Saucedemo/login/input_Swag Labs_user-name'), 'visual_user')
+
+WebUI.setText(findTestObject('WEB/Saucedemo/login/input_Swag Labs_password'), 'secret_sauce')
+
+// Clicks on the login button
+WebUI.click(findTestObject('WEB/Saucedemo/login/input_Swag Labs_login-button'))
+
+// Verifies the visibility of the 'Add to cart' button on the dashboard
+WebUI.verifyElementVisible(findTestObject('WEB/Saucedemo/dashboard/button_Add to cart'))
+
+// Verifies the presence of the 'Products' span element on the dashboard with a timeout of 0 seconds
+WebUI.verifyElementVisible(findTestObject('WEB/Saucedemo/dashboard/span_Products'))
+

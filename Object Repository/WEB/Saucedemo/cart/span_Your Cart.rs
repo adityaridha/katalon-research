@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Products</name>
+   <name>span_Your Cart</name>
    <tag></tag>
-   <elementGuidId>d9757e60-c36a-4d34-8bdf-678ebc8991cc</elementGuidId>
+   <elementGuidId>f95bce6a-a0c9-4e17-bc99-7758fb6bb474</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='header_container']/div[2]/span</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>span.title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='header_container']/div[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e033f579-d28a-4b7a-ac92-aa0db6c24999</webElementGuid>
+      <webElementGuid>17374735-e33d-45bb-b496-5a3582b705b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>title</value>
-      <webElementGuid>f7520bdc-ce74-4bed-b8c7-d7f807dcc80e</webElementGuid>
+      <webElementGuid>24b7b8bf-047e-42dc-b3d2-b9adcac2d77b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +45,15 @@
       <name>data-test</name>
       <type>Main</type>
       <value>title</value>
-      <webElementGuid>a83cb56f-8444-4f25-a6e4-d813ee423fbe</webElementGuid>
+      <webElementGuid>921ca568-a816-45ff-a1a4-b91b8a1ed5a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Products</value>
-      <webElementGuid>05e6f35b-3bd2-43b6-97df-1e3af3d16316</webElementGuid>
+      <value>Your Cart</value>
+      <webElementGuid>e58ba0d6-27de-4f3a-a5b0-754cc756de77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header_container&quot;)/div[@class=&quot;header_secondary_container&quot;]/span[@class=&quot;title&quot;]</value>
-      <webElementGuid>e20e1ed9-c192-4eeb-b575-ccdd93872b2b</webElementGuid>
+      <webElementGuid>41a9da1d-e538-4f2c-9c7c-2285bd617530</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='header_container']/div[2]/span</value>
-      <webElementGuid>fb15f495-3941-485f-a1a2-e6e22f05fdcd</webElementGuid>
+      <webElementGuid>b55d46aa-ea5e-4ceb-8c0f-867d3e0cf640</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::span[1]</value>
-      <webElementGuid>c52a8bea-e49c-467a-addf-456b0e363292</webElementGuid>
+      <webElementGuid>92fe381c-fbca-433a-ab08-7e3905c30f77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,31 +85,31 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Menu'])[1]/following::span[1]</value>
-      <webElementGuid>ecfe0a45-023d-4eee-800c-f682023ae469</webElementGuid>
+      <webElementGuid>a83e8089-26fc-46fe-b1c0-68b0f783c3e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name (A to Z)'])[1]/preceding::span[1]</value>
-      <webElementGuid>36af9d29-8366-41f7-85bb-c21ff217a3c3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QTY'])[1]/preceding::span[1]</value>
+      <webElementGuid>bdea4acd-20a4-4602-a161-1bf807fda9bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sauce Labs Backpack'])[1]/preceding::span[3]</value>
-      <webElementGuid>89abe075-0905-4b2c-bf7c-d057b67fbd3a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/preceding::span[1]</value>
+      <webElementGuid>d7e1177b-2a4f-4ebc-a682-28fb4111e5b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
-      <webElementGuid>4dd7b9e1-40d5-4034-8b8e-8a6c2be91ce5</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Your Cart']/parent::*</value>
+      <webElementGuid>3fabc4ca-708c-415d-880d-f1812e65d3c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,14 +117,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span</value>
-      <webElementGuid>9f72d9f5-6ef6-4773-8824-b6e2f7c2ff9f</webElementGuid>
+      <webElementGuid>c303dbbf-a930-40fa-acdd-3ffb70f760e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Products' or . = 'Products')]</value>
-      <webElementGuid>e82f0cf1-4c0e-4958-80db-ee101712fe90</webElementGuid>
+      <value>//span[(text() = 'Your Cart' or . = 'Your Cart')]</value>
+      <webElementGuid>1f722d9e-553d-4ceb-91f1-43b72c009b42</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>70aa063e-fc0c-4cf5-b234-dc132836cd6a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a749acd9-d7fc-4372-9039-bdcf37d5626d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae1874fe-0243-44a4-b4eb-7cbb28992fbc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user\r\n'</defaultValue>
+      <description></description>
+      <id>a749acd9-d7fc-4372-9039-bdcf37d5626d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>ae1874fe-0243-44a4-b4eb-7cbb28992fbc</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

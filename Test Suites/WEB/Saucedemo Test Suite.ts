@@ -17,5 +17,17 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/WEB/Saucedemo/Login with standard user</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a749acd9-d7fc-4372-9039-bdcf37d5626d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae1874fe-0243-44a4-b4eb-7cbb28992fbc</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

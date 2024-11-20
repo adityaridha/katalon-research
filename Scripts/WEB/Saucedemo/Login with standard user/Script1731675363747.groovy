@@ -19,15 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.saucedemo.com/')
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+CustomKeywords.'sauce.LoginPage.login'(findTestObject('WEB/Saucedemo/login/input_Swag Labs_user-name'), findTestObject('WEB/Saucedemo/login/input_Swag Labs_password'), username, password)
 
-WebUI.setText(findTestObject('WEB/Saucedemo/login/input_Swag Labs_user-name'), 'standard_user')
-
-WebUI.setEncryptedText(findTestObject('WEB/Saucedemo/login/input_Swag Labs_password'), 'qcu24s4901FyWDTwXGr6XA==')
+//CustomKeywords.'sauce.LoginPage.inputUsername'(findTestObject('WEB/Saucedemo/login/input_Swag Labs_user-name'), 'standard_user')
+//
+//WebUI.setText(findTestObject('WEB/Saucedemo/login/input_Swag Labs_password'), password)
 
 WebUI.click(findTestObject('WEB/Saucedemo/login/input_Swag Labs_login-button'))
 
 WebUI.verifyElementVisible(findTestObject('WEB/Saucedemo/dashboard/button_Add to cart'))
 
 WebUI.verifyElementPresent(findTestObject('WEB/Saucedemo/dashboard/span_Products'), 0)
+
+CustomKeywords.'sauce.LoginPage.refreshBrowser'()
+
+
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Submit leave on weekend</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6419e519-bef7-48cb-b0f4-3ddf3ea24927</testCaseGuid>
+</TestCaseEntity>

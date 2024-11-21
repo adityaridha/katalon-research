@@ -143,40 +143,41 @@ class LoginPage {
 		} catch (Exception e) {
 			KeywordUtil.markFailed("Fail to Input username on element")
 		}
+	}
 
 
 
-		@Keyword
-		def login(TestObject usernameTo, TestObject passwordTo, String username, String password) {
-			try {
+	@Keyword
+	def loginCustom(TestObject usernameTo, TestObject passwordTo, String username, String password) {
+		try {
 
-				WebElement usernameTextBox = WebUiBuiltInKeywords.findWebElement(usernameTo);
-				usernameTextBox.sendKeys(username)
+			WebElement usernameTextBox = WebUiBuiltInKeywords.findWebElement(usernameTo);
+			usernameTextBox.sendKeys(username)
 
-				WebElement passwordTextBox = WebUiBuiltInKeywords.findWebElement(passwordTo);
-				passwordTextBox.sendKeys(password)
-				KeywordUtil.markPassed("Element has been clicked")
-			} catch (WebElementNotFoundException e) {
-				KeywordUtil.markFailed("Element not found")
-			} catch (Exception e) {
-				KeywordUtil.markFailed("Fail to Input username on element")
-			}
-		}
-
-		@Keyword
-		def loginCustom(TestObject usernameTo, TestObject passwordTo, String username, String password) {
-			try {
-
-				WebElement usernameTextBox = WebUiBuiltInKeywords.findWebElement(usernameTo);
-				usernameTextBox.sendKeys(username)
-
-				WebElement passwordTextBox = WebUiBuiltInKeywords.findWebElement(passwordTo);
-				passwordTextBox.sendKeys(password)
-				KeywordUtil.markPassed("Element has been clicked")
-			} catch (WebElementNotFoundException e) {
-				KeywordUtil.markFailed("Element not found")
-			} catch (Exception e) {
-				KeywordUtil.markFailed("Fail to Input username on element")
-			}
+			WebElement passwordTextBox = WebUiBuiltInKeywords.findWebElement(passwordTo);
+			passwordTextBox.sendKeys(password)
+			KeywordUtil.markPassed("Element has been clicked")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("Element not found")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to Input username on element")
 		}
 	}
+
+	@Keyword
+	def login(TestObject usernameTo, TestObject passwordTo, String username, String password) {
+		try {
+
+			WebElement usernameTextBox = WebUiBuiltInKeywords.findWebElement(usernameTo);
+			usernameTextBox.sendKeys(username)
+
+			WebElement passwordTextBox = WebUiBuiltInKeywords.findWebElement(passwordTo);
+			passwordTextBox.sendKeys(password)
+			KeywordUtil.markPassed("Element has been clicked")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("Element not found")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to Input username on element")
+		}
+	}
+}

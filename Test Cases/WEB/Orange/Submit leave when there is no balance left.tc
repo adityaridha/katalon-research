@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Submit leave when there is no balance left</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae0215cb-9c30-488f-b061-e4d7b8f88b17</testCaseGuid>
+</TestCaseEntity>

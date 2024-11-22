@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View My Claim</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>543931e3-67a3-463d-a63b-6cf8bfbf7ea8</testCaseGuid>
+</TestCaseEntity>

@@ -30,4 +30,11 @@
          <variableId>ae1874fe-0243-44a4-b4eb-7cbb28992fbc</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ad8d620d-405a-4cec-844b-92976651ede2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/Saucedemo/Login with visual user</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
